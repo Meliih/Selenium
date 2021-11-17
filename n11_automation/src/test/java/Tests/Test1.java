@@ -14,7 +14,7 @@ public class Test1 {
     public static void main(String[] args) throws InterruptedException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\melih\\Desktop\\Selenium\\JAVA\\trendyol_automation\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\melih\\Desktop\\Selenium\\JAVA\\n11_automation\\driver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
 
